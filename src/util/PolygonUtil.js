@@ -22,7 +22,7 @@ r360.PolygonUtil = {
         };
         var outputList = subjectPolygon;
         var cp1 = clipPolygon[clipPolygon.length-1];
-        for (j in clipPolygon) {
+        for (var j in clipPolygon) {
             var cp2 = clipPolygon[j];
             var inputList = outputList;
             outputList = [];
